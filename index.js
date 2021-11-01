@@ -183,15 +183,15 @@ const App = () => {
       </div>
       <div className=" h-100 d-flex justify-content-center align-items-center" style={{backgroundColor: color}}>
 
-          <div className="container m-3 p-3">
-            <div className="card row" >
+          <div className="container m-3 p-3" >
+            <div className="card row" style={{backgroundColor: "#232627"}}>
             <img className="card-img-top" id="imgRavi" src="thisone.jpeg" alt="Card image cap" style={{minHeight: "320px"}}></img>
               <div className="card-body text-center">
-                <h5 className="card-title">Sir Ravi</h5>
+                <h5 className="card-title text-light">Sir Ravi</h5>
                 <form>
                 <div class="form-group row">
                   <div>
-                    <input type="password" class="form-control" id="passRavi" name="passRavi" placeholder="Password"></input>
+                    <input type="password"style={{backgroundColor: "#232627"}} class="form-control" id="passRavi" name="passRavi" placeholder="Password"></input>
                   </div>
                 </div>
                 <button type="button" class="btn btn-primary" onClick={verifyRavi}>GIVE UP!</button>
@@ -202,15 +202,15 @@ const App = () => {
             </div>
           </div>
 
-          <div className="container m-3 p-3">
-            <div className="card row" >
+          <div className="container m-3 p-3" >
+            <div className="card row" style={{backgroundColor: "#232627"}}>
             <img className="card-img-top" id="imgAnu" src="thistwo.jpeg" alt="Card image cap" style={{minHeight: "320px"}}></img>
               <div className="card-body text-center">
-                <h5 className="card-title">Anurag</h5>
+                <h5 className="card-title text-light">Anurag</h5>
                 <form>
                 <div class="form-group row">
                   <div>
-                    <input type="password" class="form-control" id="passAnu" name="passAnu" placeholder="Password"></input>
+                    <input type="password" style={{backgroundColor: "#232627"}} class="form-control" id="passAnu" name="passAnu" placeholder="Password"></input>
                   </div>
                 </div>
                 <button type="button" class="btn btn-primary" onClick={verifyAnurag}>GIVE UP!</button>
@@ -221,15 +221,15 @@ const App = () => {
             </div>
           </div>
 
-          <div className="container m-3 p-3">
-            <div className="card row" >
+          <div className="container m-3 p-3" >
+            <div className="card row" style={{backgroundColor: "#232627"}}>
             <img className="card-img-top" id="imgTaqi" src="thisfour.jpeg" alt="Card image cap" style={{minHeight: "320px"}}></img>
               <div className="card-body text-center">
-                <h5 className="card-title">Taki Taki </h5>
+                <h5 className="card-title text-light">Taki Taki </h5>
                 <form>
                 <div class="form-group row">
                   <div>
-                    <input type="password" class="form-control" id="passTaqi" name="passTaqi" placeholder="Password"></input>
+                    <input type="password"style={{backgroundColor: "#232627"}} class="form-control" id="passTaqi" name="passTaqi" placeholder="Password"></input>
                   </div>
                 </div>
                 <button type="button" class="btn btn-primary" onClick={verifyTaqi}>GIVE UP!</button>
@@ -241,14 +241,14 @@ const App = () => {
           </div>
 
           <div className="container m-3 p-3">
-            <div className="card row">
+            <div className="card row" style={{backgroundColor: "#232627"}}>
             <img className="card-img-top" id="imgMinh" src="66.jpg" alt="Card image cap" style={{minHeight: "320px"}}></img>
               <div className="card-body  text-center">
-                <h5 className="card-title">MegaChad Minh</h5>
+                <h5 className="card-title text-light">MegaChad Minh</h5>
                 <form>
                 <div class="form-group row">
                   <div>
-                    <input type="password" class="form-control" id="passMinh" name="passMinh" placeholder="Password"></input>
+                    <input type="password" style={{backgroundColor: "#232627"}} class="form-control" id="passMinh" name="passMinh" placeholder="Password"></input>
                   </div>
                 </div>
                 <button type="button" class="btn btn-primary" onClick={verifyMinh}>GIVE UP!</button>
@@ -259,15 +259,15 @@ const App = () => {
             </div>
           </div>
 
-          <div className="container m-3 p-3">
-            <div className="card row">
+          <div className="container m-3 p-3" >
+            <div className="card row" style={{backgroundColor: "#232627"}}>
             <img className="card-img-top" id="imgJenil" src="jj.jpeg" alt="Card image cap" style={{minHeight: "320px"}}></img>
               <div className="card-body text-center">
-                <h5 className="card-title">Just Jenil</h5>
+                <h5 className="card-title text-light">Just Jenil</h5>
                 <form>
                 <div class="form-group row">
                   <div>
-                    <input type="password" class="form-control" id="passJB" name="passJB"placeholder="Password"></input>
+                    <input type="password" style={{backgroundColor: "#232627"}}class="form-control" id="passJB" name="passJB"placeholder="Password"></input>
                   </div>
                 </div>
                 <button type="button" class="btn btn-primary" onClick={verifyJB}>GIVE UP!</button>
@@ -278,15 +278,15 @@ const App = () => {
             </div>
           </div>
 
-          <div className="container m-3 p-3">
-            <div className="card row">
+          <div className="container m-3 p-3" >
+            <div className="card row" style={{backgroundColor: "#232627"}}>
             <img className="card-img-top" id="imgPhil" src="kj.jpeg" alt="Card image cap" style={{minHeight: "320px"}}></img>
               <div className="card-body text-center">
-                <h5 className="card-title">Pham</h5>
+                <h5 className="card-title text-light">Pham</h5>
                 <form>
                 <div class="form-group row">
                   <div>
-                    <input type="password" class="form-control" id="passPhil" name="passPhil" placeholder="Password"></input>
+                    <input type="password" style={{backgroundColor: "#232627"}} class="form-control" id="passPhil" name="passPhil" placeholder="Password"></input>
                   </div>
                 </div>
                 <button type="button" class="btn btn-primary" onClick={verifyPhil}>GIVE UP!</button>
@@ -298,13 +298,13 @@ const App = () => {
           </div>
       </div>
       <div className="container">
-              <h1 className="text-center"> Need motivation? -> Click "Quote"</h1>
-              <div className="jumbotron " id="quote-box">
-                  <div className="container">
+              <h1 className="text-center mb-3"> Need motivation? -> Click "Quote"</h1>
+              <div className="jumbotron " style={{backgroundColor: "#232627"}}id="quote-box">
+                  <div className="container" >
                       {randomQuote ? (
                           <>
-                          <h6 className="display-4"><i class="fas fa-quote-left" id="text" style={{color: color}}></i>&#8194;{randomQuote.text}</h6>
-                          <p className="lead text-center" id="author">-{randomQuote.author || "Unknown"}</p>
+                          <h6 className="display-4 text-light"><i class="fas fa-quote-left" id="text" style={{color: color}}></i>&#8194;{randomQuote.text}</h6>
+                          <p className="lead text-center text-light" id="author">-{randomQuote.author || "Unknown"}</p>
                           </>
                       ):(
                           <h2>Loading...</h2>
