@@ -98,9 +98,13 @@ const App = () => {
       setColor(colors[randColorIndex])
   }
 
+  const fetchAll = () => {
+
+  }
+
   const verifyRavi = () =>{
     var x = document.getElementById('passRavi').value;
-    if(x==="iloveharddick"){
+    if(x==="x"){
       alert("Password Accepted!");
       document.getElementById('imgRavi').src = "Xthisone.jpeg";
     }
@@ -188,13 +192,13 @@ const App = () => {
             <img className="card-img-top" id="imgRavi" src="thisone.jpeg" alt="Card image cap" style={{minHeight: "320px"}}></img>
               <div className="card-body text-center">
                 <h5 className="card-title text-light">Sir Ravi</h5>
-                <form>
+                <form action="connect.php" method="post">
                 <div class="form-group row">
                   <div>
                     <input type="password"style={{backgroundColor: "#232627"}} class="form-control" id="passRavi" name="passRavi" placeholder="Password"></input>
                   </div>
                 </div>
-                <button type="button" class="btn btn-primary" onClick={verifyRavi}>GIVE UP!</button>
+                <button type="submit" class="btn btn-primary" onClick={verifyRavi}>GIVE UP!</button>
                 </form>
                 {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
                 {/* <a href="#" class="btn btn-primary">GIVE UP!</a> */}
@@ -204,7 +208,7 @@ const App = () => {
 
           <div className="container m-3 p-3" >
             <div className="card row" style={{backgroundColor: "#232627"}}>
-            <img className="card-img-top" id="imgAnu" src="thistwo.jpeg" alt="Card image cap" style={{minHeight: "320px"}}></img>
+            <img className="card-img-top" id="imgAnu" src="Xthistwo.jpeg" alt="Card image cap" style={{minHeight: "320px"}}></img>
               <div className="card-body text-center">
                 <h5 className="card-title text-light">Anurag</h5>
                 <form>
