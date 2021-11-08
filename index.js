@@ -246,7 +246,7 @@ const App = () => {
 
           <div className="container m-3 p-3">
             <div className="card row" style={{backgroundColor: "#232627"}}>
-            <img className="card-img-top" id="imgMinh" src="66.jpg" alt="Card image cap" style={{minHeight: "320px"}}></img>
+            <img className="card-img-top" id="imgMinh" src="X66.jpg" alt="Card image cap" style={{minHeight: "320px"}}></img>
               <div className="card-body  text-center">
                 <h5 className="card-title text-light">MegaChad Minh</h5>
                 <form>
